@@ -89,6 +89,7 @@ let i = 0
 for(i = 0; i <= 9; i++) {
   console.log(`Hello`)
 }
+
 ////////// PROBLEM 6 //////////
 
 /*
@@ -96,7 +97,9 @@ for(i = 0; i <= 9; i++) {
 */
 
 //CODE HERE
-
+for (i = 1; i <= 10; i++) {
+  console.log(i)
+}
 ////////// PROBLEM 7 //////////
 
 /*
