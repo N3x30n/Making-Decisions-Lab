@@ -46,6 +46,12 @@ if (amysAge > brittanisAge){
 
 //CODE HERE
 
+if (amysBirthYear === brittanisBirthYear) {
+  console.log(`Amy and Brittany were born in the same year`)
+} else {
+  console.log(`Amy and Brittany were not born in the same year`)
+}
+
 ////////// PROBLEM 4 //////////
 
 let temperature = 55;
