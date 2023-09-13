@@ -85,8 +85,8 @@ if (temperature >= 80 && rain) {
 */
 
 //CODE HERE
-let i = 0
-for(i = 0; i <= 9; i++) {
+
+for(let i = 0; i <= 9; i++) {
   console.log(`Hello`)
 }
 
@@ -97,7 +97,7 @@ for(i = 0; i <= 9; i++) {
 */
 
 //CODE HERE
-for (i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
   console.log(i)
 }
 ////////// PROBLEM 7 //////////
@@ -107,7 +107,7 @@ for (i = 1; i <= 10; i++) {
 */
 
 //CODE HERE
-for (i = 10; i >= 0; i--) {
+for (let i = 10; i >= 0; i--) {
   console.log(i)
 }
 
@@ -138,7 +138,7 @@ while (score < passingScore) {
 
 //CODE HERE
 
-let changeMyMind = true;
+let changeMyMind = false;
 
 if (changeMyMind === false) {
   changeMyMind = true
@@ -149,6 +149,11 @@ if (changeMyMind === false) {
 
 //CODE HERE
 
+if (changeMyMind != true) {
+  changeMyMind = true
+}
+console.log(changeMyMind);
+
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
@@ -157,3 +162,11 @@ let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+while ( z > 0) {
+  for (let i = z; i > 0; i--){
+    console.log(i)
+    
+  }
+  z--
+  
+}
