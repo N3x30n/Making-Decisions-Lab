@@ -78,8 +78,6 @@ if (temperature >= 80 && rain) {
   console.log(`You should wear a jacket`)
 }
 
-
-
 ////////// PROBLEM 5 //////////
 
 /*
@@ -87,7 +85,10 @@ if (temperature >= 80 && rain) {
 */
 
 //CODE HERE
-
+let i = 0
+for(i = 0; i <= 9; i++) {
+  console.log(`Hello`)
+}
 ////////// PROBLEM 6 //////////
 
 /*
